@@ -1,0 +1,125 @@
+[
+  {
+    "session": 1,
+    "class": "01-introduction-and-overview",
+    "forum_class_id": 104614,
+    "submitted_code_cells": [
+      1,
+      2
+    ],
+    "omitted_cells": [],
+    "source": "submitted Forum workbook attachment"
+  },
+  {
+    "session": 2,
+    "class": "02-linear-algebra-1-tensors-classification-and-regression",
+    "forum_class_id": 104618,
+    "submitted_code_cells": [
+      1,
+      2,
+      3
+    ],
+    "omitted_cells": [
+      4,
+      5
+    ],
+    "source": "submitted Forum workbook code cells"
+  },
+  {
+    "session": 3,
+    "class": "03-linear-algebra-2-collinearity",
+    "forum_class_id": 104721,
+    "submitted_code_cells": [
+      1,
+      2
+    ],
+    "omitted_cells": [
+      3
+    ],
+    "source": "submitted Forum workbook code cells"
+  },
+  {
+    "session": 4,
+    "class": "04-trees-1-classification-by-partition",
+    "forum_class_id": 104723,
+    "submitted_code_cells": [
+      1,
+      2,
+      3
+    ],
+    "omitted_cells": [],
+    "source": "submitted Forum workbook code cells"
+  },
+  {
+    "session": 5,
+    "class": "05-max-likelihood-1-naive-bayes",
+    "forum_class_id": 104725,
+    "submitted_code_cells": [
+      1,
+      2,
+      3
+    ],
+    "omitted_cells": [
+      4
+    ],
+    "source": "submitted Forum workbook code cells"
+  },
+  {
+    "session": 6,
+    "class": "06-max-likelihood-2-parameter-estimation",
+    "forum_class_id": 104896,
+    "submitted_code_cells": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "omitted_cells": [],
+    "source": "submitted Forum workbook code cells"
+  },
+  {
+    "session": 7,
+    "class": "07-networks-1-feed-forward-neural-networks",
+    "forum_class_id": 104898,
+    "submitted_code_cells": [
+      1,
+      2
+    ],
+    "omitted_cells": [],
+    "source": "submitted Forum workbook code cells"
+  },
+  {
+    "session": 8,
+    "class": "08-gradients-multivariate-derivatives",
+    "forum_class_id": 105071,
+    "submitted_code_cells": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "omitted_cells": [
+      7
+    ],
+    "source": "submitted Forum workbook code cells"
+  },
+  {
+    "session": 9,
+    "class": "09-metrics-and-cross-validation",
+    "forum_class_id": 105073,
+    "submitted_code_cells": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "omitted_cells": [
+      7
+    ],
+    "source": "submitted Forum workbook code cells"
+  }
+]

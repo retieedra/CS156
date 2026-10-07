@@ -1,0 +1,2 @@
+%%capture
+!python -m pip install -U --no-cache-dir "jax==0.4.13" "jaxlib==0.4.13" -f https://storage.googleapis.com/jax-releases/jax_releases.html
