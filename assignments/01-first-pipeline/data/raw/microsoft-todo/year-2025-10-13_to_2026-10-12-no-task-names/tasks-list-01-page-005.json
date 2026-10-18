@@ -1,0 +1,1250 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('retieedra%40gmail.com')/todo/lists('AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAAAgESAAAA')/tasks",
+    "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/todo/lists/AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAAAgESAAAA/tasks?$filter=status+eq+%27completed%27+and+completedDateTime%2fdateTime+ge+%272025-10-13T00%3a00%3a00%27+and+completedDateTime%2fdateTime+lt+%272026-10-13T00%3a00%3a00%27&$skip=250",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET me/todo/lists('<key>')/tasks?$select=body,bodyLastModifiedDateTime",
+    "value": [
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjRg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-24T14:32:41.1191321Z",
+            "lastModifiedDateTime": "2026-08-25T18:48:26.7224202Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAICZIymwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-24T04:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "checklistItems@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('retieedra%40gmail.com')/todo/lists('AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAAAgESAAAA')/tasks('AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAICZIymwAAAA%3D%3D')/checklistItems",
+            "checklistItems": [
+                {
+                    "displayName": "keycard",
+                    "createdDateTime": "2026-08-24T14:32:47.4099789Z",
+                    "isChecked": false,
+                    "id": "518457ae-582e-4dea-8948-65c70bc19af5"
+                },
+                {
+                    "displayName": "one of the squishies",
+                    "createdDateTime": "2026-08-24T14:32:52.2806963Z",
+                    "isChecked": false,
+                    "id": "c213baa0-32b4-4cf3-928f-45c8144f49ec"
+                },
+                {
+                    "displayName": "your 8 h cream",
+                    "createdDateTime": "2026-08-24T14:33:03.6663124Z",
+                    "isChecked": false,
+                    "id": "54cf36c0-cb8d-40e2-a187-9d5ba9fa09a4"
+                },
+                {
+                    "displayName": "headphoens",
+                    "createdDateTime": "2026-08-24T15:33:23.3246716Z",
+                    "isChecked": false,
+                    "id": "7d26759c-08b4-405f-a75b-13ac8ca4df98"
+                }
+            ]
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICWBwJQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-24T14:32:28.7516388Z",
+            "lastModifiedDateTime": "2026-08-24T18:51:21.7141831Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAICZIymgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-24T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIJwahrA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-23T23:16:46.4578178Z",
+            "lastModifiedDateTime": "2026-10-09T15:38:36.0131646Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAICWeaHQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-10-09T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-10-08T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjaw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-22T16:43:46.5312914Z",
+            "lastModifiedDateTime": "2026-08-25T18:51:11.5925455Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAICAAWFUcAAAA=",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-22T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICWBv0w==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-21T20:38:51.2240292Z",
+            "lastModifiedDateTime": "2026-08-24T18:49:36.5902804Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQtwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-24T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-21T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjQw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-21T19:05:59.6638993Z",
+            "lastModifiedDateTime": "2026-08-25T18:48:25.8342872Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQtgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-21T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuS8aw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-21T14:38:47.3376383Z",
+            "lastModifiedDateTime": "2026-08-21T19:04:42.0437946Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQtQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuS8bg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-21T13:41:54.3982695Z",
+            "lastModifiedDateTime": "2026-08-21T19:04:42.9871095Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQtAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuS8cQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-21T13:41:52.0769893Z",
+            "lastModifiedDateTime": "2026-08-21T19:04:43.803582Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQswAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIFo26uw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-21T10:17:01.3735609Z",
+            "lastModifiedDateTime": "2026-09-14T14:10:35.1545209Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQsgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-09-14T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-09-12T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjIA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T22:58:37.2882723Z",
+            "lastModifiedDateTime": "2026-08-25T18:47:44.6079589Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQsQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-20T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuS+Xw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T22:58:32.0974228Z",
+            "lastModifiedDateTime": "2026-08-21T19:05:03.5206319Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQsAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-20T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuS8dA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T22:57:54.7397763Z",
+            "lastModifiedDateTime": "2026-08-21T19:04:47.1201199Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQrgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-20T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjGg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T21:25:03.6229604Z",
+            "lastModifiedDateTime": "2026-08-25T18:46:21.5309434Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQrQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-20T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuReqw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T18:29:20.4228122Z",
+            "lastModifiedDateTime": "2026-08-21T10:42:37.7122848Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQrAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-20T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuRLKg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T15:13:07.1420779Z",
+            "lastModifiedDateTime": "2026-08-20T22:58:17.634426Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBxdQqwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-19T22:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjHQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T09:14:44.5190682Z",
+            "lastModifiedDateTime": "2026-08-25T18:47:32.6575649Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftzgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-19T22:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjaA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T09:04:28.6888377Z",
+            "lastModifiedDateTime": "2026-08-25T18:51:06.6923378Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftzQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-19T22:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuRLIw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T09:04:16.0755133Z",
+            "lastModifiedDateTime": "2026-08-20T22:58:09.7462827Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftzAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-19T22:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuRLJg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T09:04:16.0758004Z",
+            "lastModifiedDateTime": "2026-08-20T22:58:10.7606977Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftywAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-19T22:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRk9w==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-20T09:04:16.0755132Z",
+            "lastModifiedDateTime": "2026-08-25T19:00:51.0557402Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftygAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-19T22:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAICfRjWA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-19T08:23:42.1332992Z",
+            "lastModifiedDateTime": "2026-08-25T18:49:42.8712395Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftyQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-25T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-19T22:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhULjw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-19T06:19:28.6211188Z",
+            "lastModifiedDateTime": "2026-08-20T09:04:15.7207409Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftxwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhULig==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-19T06:10:56.367394Z",
+            "lastModifiedDateTime": "2026-08-20T09:04:15.3666435Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBkftxgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhULfg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T22:32:29.0347836Z",
+            "lastModifiedDateTime": "2026-08-20T09:04:14.9679378Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaZwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhULfA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T22:32:06.2840968Z",
+            "lastModifiedDateTime": "2026-08-20T09:04:14.9613328Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaZgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhULhA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T21:49:22.9275454Z",
+            "lastModifiedDateTime": "2026-08-20T09:04:15.330618Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaZAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhTBTg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T21:49:20.4370766Z",
+            "lastModifiedDateTime": "2026-08-19T07:36:29.8713765Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaYwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-19T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhULiA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T21:49:07.4185452Z",
+            "lastModifiedDateTime": "2026-08-20T09:04:15.3611761Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaXwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhTBUQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T17:33:09.2849203Z",
+            "lastModifiedDateTime": "2026-08-19T07:36:33.8424551Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaXgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-19T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhTO+g==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T17:33:04.8989831Z",
+            "lastModifiedDateTime": "2026-08-19T09:59:33.7205266Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaXQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-19T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuRcuQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T16:00:08.9229779Z",
+            "lastModifiedDateTime": "2026-08-21T10:34:22.59539Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaXAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-20T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBuRa8w==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-18T08:51:12.3463082Z",
+            "lastModifiedDateTime": "2026-08-21T10:24:15.4092836Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaWwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-21T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-20T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhULgQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-17T13:43:20.8025252Z",
+            "lastModifiedDateTime": "2026-08-20T09:04:14.9840367Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaWgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-20T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhTBSA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-17T13:16:32.3976467Z",
+            "lastModifiedDateTime": "2026-08-19T07:36:26.8848232Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaWQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-19T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhTBSw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-17T09:18:53.6875774Z",
+            "lastModifiedDateTime": "2026-08-19T07:36:28.4691912Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaWAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-19T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBhTBVA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-16T22:06:13.9814003Z",
+            "lastModifiedDateTime": "2026-08-19T07:36:35.0654353Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaVwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-19T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-16T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIIqOUVg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-16T20:41:45.6458889Z",
+            "lastModifiedDateTime": "2026-10-02T19:10:39.2229915Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaUgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-10-02T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-10-02T04:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "checklistItems@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('retieedra%40gmail.com')/todo/lists('AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAAAgESAAAA')/tasks('AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIBDoaUgAAAA%3D%3D')/checklistItems",
+            "checklistItems": [
+                {
+                    "displayName": "bz school summer work",
+                    "createdDateTime": "2026-08-16T20:41:56.0971641Z",
+                    "checkedDateTime": "2026-10-02T16:19:32.3308291Z",
+                    "isChecked": true,
+                    "id": "61d99f21-d6de-4dda-b9f9-e70d9633a4cf"
+                },
+                {
+                    "displayName": "twitter bot",
+                    "createdDateTime": "2026-08-16T20:43:17.5204792Z",
+                    "checkedDateTime": "2026-10-02T16:19:33.1489753Z",
+                    "isChecked": true,
+                    "id": "5c746e31-5e48-466e-8f27-f3ad08ce98a4"
+                },
+                {
+                    "displayName": "start running ads for context.shop",
+                    "createdDateTime": "2026-08-16T20:43:27.0731648Z",
+                    "checkedDateTime": "2026-10-02T16:19:31.0337406Z",
+                    "isChecked": true,
+                    "id": "fab6c722-5211-4ddc-8357-e011457fb405"
+                },
+                {
+                    "displayName": "automate your school work",
+                    "createdDateTime": "2026-08-16T20:43:35.0666546Z",
+                    "checkedDateTime": "2026-10-02T16:19:29.9342331Z",
+                    "isChecked": true,
+                    "id": "20a5d303-af19-44e9-96ca-3d488ecfbbba"
+                },
+                {
+                    "displayName": "make sagar a hoodie: https://arxiv.org/pdf/2607.22563",
+                    "createdDateTime": "2026-08-16T20:45:14.2877607Z",
+                    "checkedDateTime": "2026-08-16T23:07:26.1168431Z",
+                    "isChecked": true,
+                    "id": "8aedb96c-0487-49c0-a4ce-aa359cfe5df4"
+                },
+                {
+                    "displayName": "try out strawberry",
+                    "createdDateTime": "2026-08-16T23:24:36.1991746Z",
+                    "checkedDateTime": "2026-10-02T16:19:41.3959566Z",
+                    "isChecked": true,
+                    "id": "e6c3f720-2b34-4170-837d-33b6e955516f"
+                },
+                {
+                    "displayName": "make the new tapsitch embroidery with the arxiv link hoodies",
+                    "createdDateTime": "2026-08-25T18:45:56.095695Z",
+                    "isChecked": false,
+                    "id": "770ea53e-b463-4d30-8766-f12b973908f6"
+                },
+                {
+                    "displayName": "figure out a no fee route for your money to get to revolut",
+                    "createdDateTime": "2026-08-25T18:48:04.238282Z",
+                    "isChecked": false,
+                    "id": "ad5e7498-ded2-4ac7-8f47-203b9eae0392"
+                },
+                {
+                    "displayName": "helista vanaeamle",
+                    "createdDateTime": "2026-08-25T18:48:13.6200135Z",
+                    "isChecked": false,
+                    "id": "7fa7e747-fedd-4b80-b33e-c14f061d9132"
+                },
+                {
+                    "displayName": "make the new tapsitch embroidery with the arxiv link hoodies",
+                    "createdDateTime": "2026-08-25T18:51:00.9811893Z",
+                    "isChecked": false,
+                    "id": "34190960-35fa-4859-a55f-29bde32b67cf"
+                },
+                {
+                    "displayName": "and add the arxiv hoodies into the shop run more ads",
+                    "createdDateTime": "2026-09-08T15:09:00.6037074Z",
+                    "isChecked": false,
+                    "id": "4cdd859f-f22f-449a-91ef-c7512d43754c"
+                }
+            ]
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIA47y+w==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-15T01:37:00.6282629Z",
+            "lastModifiedDateTime": "2026-08-15T11:33:25.7377598Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAtjOWAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-15T00:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBAaUVw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-14T19:04:03.620439Z",
+            "lastModifiedDateTime": "2026-08-16T20:44:11.8275286Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAtjOVwAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-16T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-13T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIA47zAQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-14T18:40:20.023543Z",
+            "lastModifiedDateTime": "2026-08-15T11:33:42.913286Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAtjOVgAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-15T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-13T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBAaUJw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-14T16:17:26.9997044Z",
+            "lastModifiedDateTime": "2026-08-16T20:43:30.2530035Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAtjOVAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-16T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-14T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIAqUdGg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-13T17:58:48.1219291Z",
+            "lastModifiedDateTime": "2026-08-14T18:12:49.7274614Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAcIh7wAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-14T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-13T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIAqUdHQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-13T17:58:38.557568Z",
+            "lastModifiedDateTime": "2026-08-14T18:12:50.6561271Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAcIh7gAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-14T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-13T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIAqUdFw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-13T01:19:12.0550871Z",
+            "lastModifiedDateTime": "2026-08-14T18:12:47.8001664Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAcIh7QAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-14T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-12T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBAaUMQ==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-13T01:19:03.4020695Z",
+            "lastModifiedDateTime": "2026-08-16T20:43:46.2179188Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAcIh7AAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-16T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-11T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIAqUdIA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-12T22:16:03.0386127Z",
+            "lastModifiedDateTime": "2026-08-14T18:12:53.7937243Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAcIh6wAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-14T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-12T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIBAaUVA==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-12T18:17:59.2099509Z",
+            "lastModifiedDateTime": "2026-08-16T20:44:10.7889569Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAcIh6gAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-16T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-14T21:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIDo/RFg==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-11T22:11:25.0714779Z",
+            "lastModifiedDateTime": "2026-09-02T02:19:40.1483893Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAREDqQAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-09-01T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-28T04:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "checklistItems@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('retieedra%40gmail.com')/todo/lists('AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAAAgESAAAA')/tasks('AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAREDqQAAAA%3D%3D')/checklistItems",
+            "checklistItems": [
+                {
+                    "displayName": "nick",
+                    "createdDateTime": "2026-08-11T22:11:31.7916604Z",
+                    "isChecked": false,
+                    "id": "75409846-58da-470b-8e82-028405cedffd"
+                }
+            ]
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIAqUdDw==\"",
+            "importance": "normal",
+            "isReminderOn": false,
+            "status": "completed",
+            "title": "",
+            "createdDateTime": "2026-08-11T20:59:30.4238775Z",
+            "lastModifiedDateTime": "2026-08-14T18:08:06.9684615Z",
+            "hasAttachments": false,
+            "categories": [],
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgBGAAADNwHJnP6XAkGsOKVMrpb9YAcAc7I8seP1F0_5P7LArQwaXwAAAgESAAAAc7I8seP1F0_5P7LArQwaXwAIAREDqAAAAA==",
+            "body": {
+                "content": "",
+                "contentType": "text"
+            },
+            "completedDateTime": {
+                "dateTime": "2026-08-14T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2026-08-11T04:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        }
+    ]
+}

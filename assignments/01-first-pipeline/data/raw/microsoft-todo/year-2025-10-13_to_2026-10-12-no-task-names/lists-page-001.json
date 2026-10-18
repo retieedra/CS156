@@ -1,0 +1,118 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('retieedra%40gmail.com')/todo/lists",
+    "@microsoft.graph.tips": "Use $select to choose only the properties your app needs, as this can lead to performance improvements. For example: GET me/todo/lists?$select=displayName,isOwner",
+    "value": [
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAII+80VQ==\"",
+            "displayName": "Tasks",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "defaultList",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAAAgESAAAA"
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAII+80cA==\"",
+            "displayName": "groceries",
+            "isOwner": true,
+            "isShared": true,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAHdjvDBwAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71Cvg==\"",
+            "displayName": "life reset",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAHwGhf_wAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71CwA==\"",
+            "displayName": "sagar",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAHt6pUvAAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAII++SIw==\"",
+            "displayName": "skills to build and share",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAIJBMP1gAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71Cww==\"",
+            "displayName": "to build",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAGuxiTMAAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71CxQ==\"",
+            "displayName": "to buy",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAH77aVogAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71Cxw==\"",
+            "displayName": "to learn",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAFDSCvqQAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71CyQ==\"",
+            "displayName": "to read",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAGneWjsQAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71Cyw==\"",
+            "displayName": "todo in estonia",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAHtDySugAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAII+80eg==\"",
+            "displayName": "tweets",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAIE1nbhwAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAIF71Czw==\"",
+            "displayName": "yearly (1 january)",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAEQrhawAAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAH/lD7AQ==\"",
+            "displayName": "costco",
+            "isOwner": false,
+            "isShared": true,
+            "wellknownListName": "none",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAHjFQEQwAAAA=="
+        },
+        {
+            "@odata.etag": "W/\"c7I8seP1F0+5P7LArQwaXwAGEx8kSg==\"",
+            "displayName": "Flagged Emails",
+            "isOwner": true,
+            "isShared": false,
+            "wellknownListName": "flaggedEmails",
+            "id": "AQMkADAwATNiZmYAZC0wZDc2LTc5ZjctMDACLTAwCgAuAAADNwHJnP6XAkGsOKVMrpb9YAEAc7I8seP1F0_5P7LArQwaXwAEc1m2KwAAAA=="
+        }
+    ]
+}
