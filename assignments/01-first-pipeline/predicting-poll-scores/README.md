@@ -18,6 +18,10 @@ First Pipeline assignment: predict an instructor-assigned score of 2, 3, or 4 fr
 
 The published CSV preserves the source values and all rows while selecting and renaming these seven columns. Instructor feedback, Forum URLs, dates/times, and descriptive titles are omitted. Encoding, token-length handling, and train/validation/test splitting have not been applied to this CSV. No examples have been duplicated to balance labels.
 
+## Additional dataset: Student 2
+
+[minerva_graded_polls_student_2.csv](data/minerva_graded_polls_student_2.csv) contains 123 graded poll records from Student 2 in a separate file with all 14 original columns. It has not been merged into the 137-response dataset or included in the preliminary analysis. Unlike the seven-column dataset above, this export includes instructor feedback and source metadata, which should be excluded from predictive model inputs.
+
 ## Planned comparison
 
 All three conditions use the same frozen MiniLM embeddings: multinomial logistic regression, an eight-unit feedforward neural network, and the same network with dropout. Use shared five-fold score-stratified evaluation, with validation inside the training portion. The simplified implementation is still being planned; code and notebooks are not included in this data-only update.
