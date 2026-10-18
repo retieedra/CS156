@@ -18,6 +18,6 @@ Only code present in the submitted workbooks or the submitted session 1 notebook
 
 The [manifest](classes/manifest.json) records each session's source and omitted cell numbers. The notebooks contain the included cells in order and clear execution output. Run them with the libraries imported in their cells; individual cell files share state and may not work independently.
 
-## Assignment data
+## Assignment
 
-The [First Pipeline assignment](assignments/01-first-pipeline/README.md) contains the current poll-score dataset and data dictionary.
+The [First Pipeline assignment](assignments/01-first-pipeline/README.md) contains the poll-score datasets, submitted notebook with saved outputs and its Python code.
