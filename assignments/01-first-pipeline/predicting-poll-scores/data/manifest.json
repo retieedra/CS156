@@ -1,0 +1,22 @@
+{
+  "snapshot_date": "2026-10-18",
+  "rows": 137,
+  "courses": 12,
+  "score_counts": {
+    "3": 66,
+    "4": 55,
+    "2": 16
+  },
+  "source_snapshot_sha256": "95696020b883126c83c2093298ba7a2af76e73f29f43f9c19f8f9cabe52d5f52",
+  "published_csv_sha256": "cf5efdd2fe9883e5f5f8f7a15812dca82a35365677138e8da629b869608163d2",
+  "transformation": "Select and rename seven columns. Preserve all 137 rows and field values. No text truncation, oversampling, or label changes.",
+  "excluded_columns": [
+    "Date",
+    "Time in class",
+    "Class name",
+    "Poll title",
+    "Instructor feedback",
+    "Source URL",
+    "Course title"
+  ]
+}

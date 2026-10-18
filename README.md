@@ -14,6 +14,10 @@ This repository collects the code submitted for the first nine sessions of **CS1
 | 8 | [Multivariate Derivatives](classes/08-gradients-multivariate-derivatives/) | 1–6 |
 | 9 | [Metrics and Cross Validation](classes/09-metrics-and-cross-validation/) | 1–6 |
 
-Only code present in the submitted workbooks or the submitted session 1 notebook attachment is included. Local preparation drafts, written responses, datasets, and notebook outputs are excluded. Submitted code is preserved even where it has an error or depends on missing context; nothing has been completed or repaired for this collection.
+Only code present in the submitted workbooks or the submitted session 1 notebook attachment is included. Local preparation drafts, written responses, class datasets, and notebook outputs are excluded from the submitted-workbook collection. Submitted code is preserved even where it has an error or depends on missing context; nothing has been completed or repaired for this collection.
 
 The [manifest](classes/manifest.json) records each session's source and omitted cell numbers. The notebooks contain the included cells in order and clear execution output. Run them with the libraries imported in their cells; individual cell files share state and may not work independently.
+
+## Assignment data
+
+The [First Pipeline assignment](assignments/01-first-pipeline/README.md) contains the current poll-score dataset and data dictionary.
